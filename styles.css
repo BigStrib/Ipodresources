@@ -18,7 +18,7 @@ body {
     justify-content: center; /* Horizontally center */
 }
 
-.top-centered-div {
+.BatteryIflashCompatibility {
     width: 50%;
     height:fit-content ;
     background-color: #333;
@@ -27,3 +27,16 @@ body {
     padding: 20px;
     box-sizing: border-box;
 }
+
+a {
+    color: white;           /* Sets the default link color to white */
+    text-decoration: none;  /* Removes the underline from the link */
+    font-size:14px; 
+    
+  }
+  
+  a:hover {
+    color: red;             /* Changes the color to red when hovered */
+    text-decoration: none;  /* Adds underline on hover, optional */
+  }
+  
