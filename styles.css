@@ -1,42 +1,81 @@
-/* Basic reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-
-body, html {
-    height: 100%;
-    margin: 0;
-
-}
-
 body {
-    background-color: #000000;
+    font-family: Arial, sans-serif;
+    background-color:#000;
+}
+
+#search-container {
     display: flex;
-    justify-content: center; /* Horizontally center */
+    justify-content: center;
+    margin: 20px;
 }
 
-.BatteryIflashCompatibility {
-    width: 50%;
-    height:fit-content ;
-    background-color: #333;
+#search-input {
+    padding: 10px;
+    width: 200px;
+    border: 0px solid #ccc;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+    background-color: #363636; 
+    color:#ccc;
+}
+
+#search-btn {
+    padding: 10px;
+    margin-left: 1px;
+    background-color: #363636;
     color: white;
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
 }
 
-a {
-    color: white;           /* Sets the default link color to white */
-    text-decoration: none;  /* Removes the underline from the link */
-    font-size:14px; 
-    
-  }
-  
-  a:hover {
-    color: red;             /* Changes the color to red when hovered */
-    text-decoration: none;  /* Adds underline on hover, optional */
-  }
-  
+#search-btn:hover {
+background-color: #1a1919; 
+}
+
+#show-all-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#show-all-btn {
+    padding: 10px;
+    background-color: #363636;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#show-all-btn:hover {
+    color:red; 
+}
+
+#content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-div {
+    width: 80%;
+    padding: 15px;
+    background-color: #363636;
+    margin: 5px 0;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color:#ccc; 
+}
+
+.content-div a {
+    text-decoration: none;
+    color: #dbdbdb;
+    font-size: 18px;
+}
+
+.content-div a:hover{
+    color:red; 
+}
